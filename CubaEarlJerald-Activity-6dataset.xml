@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE NBA-DRAFT [
+
+	<!ELEMENT NBA-DRAFT (player)>
+	<!ELEMENT player ( name, height, weight, body-fat, agility, wing-span, standing-reach, vertical-maxreach, yearofdraft, draft)>
+
+	<!ELEMENT NBA-DRAFT (#PCDATA)>
+	<!ELEMENT player (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT height (#PCDATA)>
+	<!ELEMENT weight (#PCDATA)>	
+	<!ELEMENT body-fat (#PCDATA)>
+	<!ELEMENT agility (#PCDATA)>
+	<!ELEMENT wing-span (#PCDATA)>
+	<!ELEMENT standing-reach (#PCDATA)>
+	<!ELEMENT vertical-maxreach (#PCDATA)>
+	<!ELEMENT yearofdraft (#PCDATA)>
+	<!ELEMENT draft (#PCDATA)>
+
+	<!ATTLIST player no CDATA #REQUIRED>
+
+]>
+
+<NBA-DRAFT>
+
+	<player no="001">
+		<name>Blake Griffin</name>
+		<height>80.5</height>
+		<weight>248</weight>
+		<body-fat>8.2</body-fat>
+		<agility>10.95</agility>
+		<wing-span>83.25</wing-span>
+		<standing-reach>105</standing-reach>
+		<vertical-maxreach>140.5</vertical-maxreach>
+		<yearofdraft>2009</yearofdraft>
+		<draft>01</draft>
+	</player>
+
+	<player no="002">
+		<name>Terrence Williams</name>
+		<height>77</height>
+		<weight>213</weight>
+		<body-fat>8.2</body-fat>
+		<agility>11.15</agility>
+		<wing-span>81</wing-span>
+		<standing-reach>103.5</standing-reach>
+		<vertical-maxreach>140.5</vertical-maxreach>
+		<yearofdraft>2009</yearofdraft>
+		<draft>11</draft>
+	</player>
+
+	<player no="003">
+		<name>Gerald Henderson</name>
+		<height>76</height>
+		<weight>215</weight>
+		<body-fat>4.4</body-fat>
+		<agility>11.17</agility>
+		<wing-span>82.25</wing-span>
+		<standing-reach>102.5</standing-reach>
+		<vertical-maxreach>137.5</vertical-maxreach>
+		<yearofdraft>2009</yearofdraft>
+		<draft>12</draft>
+	</player>
+
+	<player no="004">
+		<name>Tyler Hansbrough</name>
+		<height>80.25</height>
+		<weight>234</weight>
+		<body-fat>8.5</body-fat>
+		<agility>11.12</agility>
+		<wing-span>83.5</wing-span>
+		<standing-reach>106</standing-reach>
+		<vertical-maxreach>140</vertical-maxreach>
+		<yearofdraft>2009</yearofdraft>
+		<draft>13</draft>
+	</player>
+
+	<player no="005">
+		<name>Earl Clark</name>
+		<height>80.5</height>
+		<weight>228</weight>
+		<body-fat>5.2</body-fat>
+		<agility>11.17</agility>
+		<wing-span>86.5</wing-span>
+		<standing-reach>109.5</standing-reach>
+		<vertical-maxreach>142.5</vertical-maxreach>
+		<yearofdraft>2009</yearofdraft>
+		<draft>14</draft>
+	</player>
+
+	<player no="006">
+		<name>James Johnson</name>
+		<height>79</height>
+		<weight>257</weight>
+		<body-fat>12</body-fat>
+		<agility>11.21</agility>
+		<wing-span>84.75</wing-span>
+		<standing-reach>105.5</standing-reach>
+		<vertical-maxreach>140.5</vertical-maxreach>
+		<yearofdraft>2009</yearofdraft>
+		<draft>16</draft>
+	</player>
+
+	<player no="007">
+		<name>Austine Daye</name>
+		<height>81.75</height>
+		<weight>192</weight>
+		<body-fat>5.5</body-fat>
+		<agility>12.11</agility>
+		<wing-span>86.75</wing-span>
+		<standing-reach>110</standing-reach>
+		<vertical-maxreach>138</vertical-maxreach>
+		<yearofdraft>2009</yearofdraft>
+		<draft>15</draft>
+	</player>
+
+	<player no="008">
+		<name>Jrue Holiday</name>
+		<height>75.25</height>
+		<weight>199</weight>
+		<body-fat>6.3</body-fat>
+		<agility>10.64</agility>
+		<wing-span>79</wing-span>
+		<standing-reach>100.5</standing-reach>
+		<vertical-maxreach>134.5</vertical-maxreach>
+		<yearofdraft>2009</yearofdraft>
+		<draft>17</draft>
+	</player>
+
+	<player no="009">
+		<name>Ty Lawson</name>
+		<height>71.25</height>
+		<weight>197</weight>
+		<body-fat>6.6</body-fat>
+		<agility>10.98</agility>
+		<wing-span>72.25</wing-span>
+		<standing-reach>94.5</standing-reach>
+		<vertical-maxreach>131</vertical-maxreach>
+		<yearofdraft>2009</yearofdraft>
+		<draft>18</draft>
+	</player>
+
+	<player no="010">
+		<name>Jeff Teague</name>
+		<height>72.25</height>
+		<weight>175</weight>
+		<body-fat>4.5</body-fat>
+		<agility>11.05</agility>
+		<wing-span>79.5</wing-span>
+		<standing-reach>98.5</standing-reach>
+		<vertical-maxreach>135</vertical-maxreach>
+		<yearofdraft>2009</yearofdraft>
+		<draft>19</draft>
+	</player>
+	
+
+
+</NBA-DRAFT>
